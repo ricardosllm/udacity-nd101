@@ -1,4 +1,4 @@
-import numpy as np
+import numpy  as np
 import pandas as pd
 
 admissions = pd.read_csv('binary.csv')
@@ -18,5 +18,5 @@ sample = np.random.choice(data.index, size=int(len(data)*0.9), replace=False)
 data, test_data = data.ix[sample], data.drop(sample)
 
 # Split into features and targets
-features, targets = data.drop('admit', axis=1), data['admit']
+features, targets           = data.drop('admit', axis=1), data['admit']
 features_test, targets_test = test_data.drop('admit', axis=1), test_data['admit']
