@@ -37,8 +37,9 @@ for e in range(epochs):
 
     # Printing out the mean square error on the training set
     if e % (epochs / 10) == 0:
-        out = sigmoid(np.dot(features, weights))
+        out  = sigmoid(np.dot(features, weights))
         loss = np.mean((out - targets) ** 2)
+
         if last_loss and last_loss < loss:
             print("Train loss: ", loss, "  WARNING - Loss Increasing")
         else:
@@ -47,9 +48,9 @@ for e in range(epochs):
 
 
 # Calculate accuracy on test data
-tes_out = sigmoid(np.dot(features_test, weights))
+tes_out     = sigmoid(np.dot(features_test, weights))
 predictions = tes_out > 0.5
-accuracy = np.mean(predictions == targets_test)
+accuracy    = np.mean(predictions == targets_test)
 print("Prediction accuracy: {:.3f}".format(accuracy))
 
 # --------- Output ---------
