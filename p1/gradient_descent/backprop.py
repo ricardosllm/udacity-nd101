@@ -45,7 +45,7 @@ for e in range(epochs):
         hidden_error = np.dot(output_error, weights_hidden_output) * \
                        hidden_activations * (1 - hidden_activations)
 
-        # TODO: Update the change in weights
+        # Update the change in weights
         del_w_hidden_output += output_error * hidden_activations
         del_w_input_hidden  += hidden_error * x[:, None]
 
