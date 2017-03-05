@@ -90,3 +90,5 @@ ENV/
 .DS_Store
 
 deep-learning/*
+deep-learning/intro-to-tensorflow/notMNIST_train.zip
+jupyter
