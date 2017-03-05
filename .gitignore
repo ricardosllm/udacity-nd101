@@ -89,5 +89,4 @@ ENV/
 .ropeproject
 .DS_Store
 
-deep-learning/intro-to-tensorflow/notMNIST.pickle
-deep-learning/intro-to-tensorflow/notMNIST_train.zip
+deep-learning/*
