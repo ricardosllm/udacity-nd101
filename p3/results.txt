@@ -1,0 +1,174 @@
+num_epochs           = 400
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 78
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch 396 Batch    7/8   train_loss = 0.020
+
+
+num_epochs           = 200
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 78
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch 196 Batch    7/8   train_loss = 0.021
+
+
+num_epochs           = 150
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 78
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch 146 Batch    7/8   train_loss = 0.024
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 78
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  96 Batch    7/8   train_loss = 0.035
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 77
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  96 Batch    7/8   train_loss = 0.044
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 70
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  97 Batch    2/9   train_loss = 0.042
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 80
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  96 Batch    7/8   train_loss = 0.037
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 100
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  95 Batch    5/6   train_loss = 0.043
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 75
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  97 Batch    2/9   train_loss = 0.036
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 50
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  98 Batch    1/13   train_loss = 0.050
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 30
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  98 Batch   21/23   train_loss = 0.098
+
+
+num_epochs           = 100
+batch_size           = 10
+rnn_size             = 512
+seq_length           = 15
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  99 Batch   67/92   train_loss = 0.205 (~0.245 - luck?)
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 30
+learning_rate        = 0.005
+show_every_n_batches = 25
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 15
+learning_rate        = 0.005
+show_every_n_batches = 25
+Epoch  30 Batch   45/46   train_loss = 0.240
+Epoch  99 Batch   21/46   train_loss = 0.245
+
+
+num_epochs           = 100
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 15
+learning_rate        = 0.0005
+show_every_n_batches = 25
+Epoch  30 Batch   45/46   train_loss = 3.037
+Epoch  99 Batch   21/46   train_loss = 0.511
+
+
+num_epochs           = 150
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 15
+learning_rate        = 0.0005
+show_every_n_batches = 25
+Epoch  30 Batch   20/46   train_loss = 3.083
+Epoch  90 Batch   10/46   train_loss = 0.708
+Epoch 149 Batch   21/46   train_loss = 0.244
+
+
+num_epochs           = 250
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 15
+learning_rate        = 0.0005
+show_every_n_batches = 25
+Epoch  30 Batch   20/46   train_loss = 3.086
+Epoch 100 Batch    0/46   train_loss = 0.520
+Epoch 150 Batch    0/46   train_loss = 0.269
+Epoch 200 Batch    0/46   train_loss = 0.240
+Epoch 249 Batch   21/46   train_loss = 0.205
+
+
+num_epochs           = 350
+batch_size           = 100
+rnn_size             = 512
+seq_length           = 15
+learning_rate        = 0.0005
+show_every_n_batches = 25
+
+Epoch  30 Batch   20/46   train_loss = 3.353
+Epoch 100 Batch    0/46   train_loss = 0.897
+Epoch 150 Batch    0/46   train_loss = 0.364
+Epoch 200 Batch   25/46   train_loss = 0.245
+Epoch 250 Batch   25/46   train_loss = 0.229
+Epoch 300 Batch   25/46   train_loss = 0.224
+Epoch 349 Batch   21/46   train_loss = 0.249
