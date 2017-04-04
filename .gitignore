@@ -92,3 +92,5 @@ ENV/
 deep-learning/*
 deep-learning/intro-to-tensorflow/notMNIST_train.zip
 jupyter
+
+p3/save*
