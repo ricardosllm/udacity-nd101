@@ -94,3 +94,5 @@ deep-learning/intro-to-tensorflow/notMNIST_train.zip
 jupyter
 
 p3/save*
+face_generation/data
+face_generation/.ipynb_checkpoints
